@@ -1,4 +1,4 @@
-const colors = ["antiquewhite", "azure", "lavender", "lavenderblush", "lemonchiffon", "mistyrose", "navajowhite", "peachpuff", "seashell"];
+const colors = ["powderblue", "cornflowerblue", "papayawhip", "darkkhaki", "thistle", "blanchedalmond", "antiquewhite", "azure", "lavender", "lavenderblush", "lemonchiffon", "mistyrose", "navajowhite", "peachpuff", "seashell"];
 const button = document.getElementById('btn');
 const textColor = document.querySelector('h1');
 
