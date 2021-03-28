@@ -13,12 +13,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: mintcream;
+    position: relative;
 }
 
 .nav-center {
     background-color: #edf2fb;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    height: 7vh;
+    width: 100%;
+    position: absolute;
+
 }
 
 .nav-links {
@@ -42,7 +45,7 @@ body {
 }
 
 main {
-    height: 93vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
