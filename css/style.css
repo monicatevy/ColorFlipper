@@ -76,19 +76,22 @@ button:hover {
 footer {
     color: #8d99ae;
     font-family: 'Roboto Mono';
-    font-size: smaller;
     display: flex;
     justify-content: space-between;
-    margin-top: auto;
     padding: 1rem 2rem 1.2rem 2rem;
+    margin-top: auto;
 }
 
-footer i {
+footer i, footer a {
     font-size: 1.5rem;
     color: #8d99ae;
+    text-decoration: none;
 }
 
-footer span:hover, footer i:hover {
+footer a {
+    font-size: smaller;
+}
+
+footer a:hover, footer i:hover {
     color: black;
-    text-decoration: none;
 }
